@@ -1,0 +1,25 @@
+tensorflow.keras.applications için bazı örnekler:
+https://www.tensorflow.org/api_docs/python/tf/keras/applications
+
+tf.keras.applications.vgg16.VGG16(
+    include_top=True, weights='imagenet', input_tensor=None,
+    input_shape=None, pooling=None, classes=1000,
+    classifier_activation='softmax'
+)
+
+tf.keras.applications.resnet50.ResNet50(
+    include_top=True, weights='imagenet', input_tensor=None,
+    input_shape=None, pooling=None, classes=1000, **kwargs
+)
+
+tf.keras.applications.inception_v3.InceptionV3(
+    include_top=True, weights='imagenet', input_tensor=None,
+    input_shape=None, pooling=None, classes=1000,
+    classifier_activation='softmax'
+)
+
+tf.keras.applications.resnet_v2.ResNet101V2(
+    include_top=True, weights='imagenet', input_tensor=None,
+    input_shape=None, pooling=None, classes=1000,
+    classifier_activation='softmax'
+)

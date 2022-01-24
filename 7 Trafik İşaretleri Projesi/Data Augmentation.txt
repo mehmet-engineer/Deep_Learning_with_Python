@@ -1,0 +1,20 @@
+
+İlk başta DATAI TEAM kullanımını öğrendim:
+---------------------------------------------------------
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+dataGenerator = ImageDataGenerator(width_shift_range=0.1,
+height_shift_range=0.1,
+zoom_range=0.1,
+rotation_range=10)
+dataGenerator.fit(x_train)
+
+generator = dataGenerator.flow(x_train,y_train,batch_size=batch)
+
+history = model.fit_generator(generator, epochs=15,
+validation_data = (x_validation,y_validation),
+steps_per_epoch = steps, shuffle=1)
+-----------------------------------------------------------
+
+Farklı bir şekilde (codebasics) data augmentation:
+https://www.youtube.com/watch?v=mTVf7BN7S8w&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=27

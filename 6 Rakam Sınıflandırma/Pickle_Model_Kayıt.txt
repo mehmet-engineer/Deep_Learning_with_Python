@@ -1,0 +1,12 @@
+
+modelin kaydedilmesi:
+-----------------------------
+import pickle
+pickle_out = open("model_trained.p","wb")
+pickle.dump = (model, pickle_out)
+pickle_out.close()
+
+modelin içe aktarılması:
+-------------------------------
+pickle_in = open("model_trained.p","rb")
+model = pickle.load(pickle_in)

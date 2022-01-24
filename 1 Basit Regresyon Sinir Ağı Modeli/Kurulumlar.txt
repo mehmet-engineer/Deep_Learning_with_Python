@@ -1,0 +1,23 @@
+- pip install seaborn
+- pip install virtualenv
+
+Anaconda kurulumu yapılır
+Kurulurken ortam değişkeni PATH ekleme tiki aktif olur
+
+cmd --> jupyter notebook
+
+---------------------------------------------------------------------
+
+ - cmd --> conda install seaborn
+ - Anaconda Navigator > Environments > Create > tensorflow
+ - All seç ve arama kısmına tensorflow yaz
+ - tensorflow kütüphanesini seç ve apply
+ - diğer kütüphaneleri de kur:
+ seaborn, scikit-learn, numpy, pandas, matplotlib, opencv
+
+https://www.youtube.com/watch?v=O8yye2AHCOk&t=640s
+
+---------------------------------------------------------------------------
+
+Proje Dizini:
+C:\Users\Mehmet KAHRAMAN\Anaconda_Jupyter
