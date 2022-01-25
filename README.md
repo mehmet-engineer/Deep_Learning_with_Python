@@ -4,3 +4,5 @@ yapay olarak taklit edilmesiyle ortaya çıkmıştır. Canlıların sinir yapıs
 etkileşime girmesiyle oluşmaktadır. Her bir sinir hücresi bir önceki nörondan aldığı elektriksel veriyi işleyerek bağlı olduğu diğer nörona iletmektedir. Verilerin işlenmesi
 sonucunda vücut kararları alınmaktadır. Bu teorik bilgiler, derin öğrenme modellerinde yapay sinir ağları (Artificial Neural Networks) olarak karşılık bulmuştur. Öncelikle
 yapay nöronlar (perceptron) oluşturulmuş, daha sonra yapay sinir ağına katmanlar halinde yerleştirilmiştir. Böylece derin bir yapay öğrenme modeli gerçekleştirilmiştir.
+
+![resim](https://github.com/mehmet-engineer/Deep_Learning_with_Python/blob/master/artificial_neural_networks.jpg)
