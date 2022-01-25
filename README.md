@@ -15,4 +15,12 @@ yapay nöronlar (perceptron) oluşturulmuş, daha sonra yapay sinir ağına katm
   <img src="https://github.com/mehmet-engineer/Deep_Learning_with_Python/blob/master/artificial_neural_networks.jpg" />
 </p>
 
-Her bir yapay sinir hücresinin görevi, girdi olarak aldığı verileri f(x) = Wx+b lineer fonksiyonuna göre işleyerek bir çıktı üretmesidir. 
+Her bir yapay sinir hücresinin görevi, girdi olarak aldığı verileri f(x) = Wx+b lineer fonksiyonuna göre işleyerek bir çıktı üretmesidir. Yapay sinir ağının görevi ise modelin
+en iyi çıktı skorunu vereceği W ağırlığı ve b bias parametrelerinin hesabını yapmaktır. Sinir ağları sadece doğrusal ağırlıklı toplam (Wx+b) işlemini yaptğında çıktılar sınırlı kalmaktadır. Sinir ağının doğrusal olmayan gerçek hayat problemlerini çözebilmesi için aktivasyon fonksiyonuna sahip olması gerekmektedir. Model, öğrenme işlemini barındırdığı nöronların sahip olduğu ağırlık gibi parametreleri güncelleyerek gerçekleştirmektedir. Böylece derin sinir ağları sınıflandırma, tahmin etme, örnekleme, örüntü tamamlama, nesne 
+tespiti, örnekleme ve genelleme gibi problem çeşitlerini çözebilmektedir.
+
+Yaygın olarak kullanılan özelleştirilmiş derin sinir ağlarından bahsetmek gerekirse;
+1) Evrişimsel Sinir Ağları CNN (Bilgisayarlı görü uygulamaları)
+2) Özyinelemeli Sinir Ağları RNN (Doğal dil işleme, auto translate, sesli asistanlar)
+4) Üretici Çekişmeli Ağlar GAN (Sentetik görsel oluşturma)
+5) Kapsül Ağları (Capsule Networks)
