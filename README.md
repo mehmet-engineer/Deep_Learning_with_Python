@@ -1,26 +1,17 @@
-# Python ile Derin Öğrenme
-Derin öğrenme, makine öğrenmesine göre daha yeni bir yaklaşımdır ve farklı bir prensibe sahiptir. Makine öğrenmesinde verilerin anlamlandırılması, geliştiricilerin
-veriler içerisindeki öznitelikleri kendilerinin çıkartması sonrasında makine öğrenmesi modellerine aktarılmasıyla gerçekleştirilir. Bu sebeple modelin başarısı, büyük
-ölçüde özniteliklerin (features) iyi çıkarılmış olmasına bağlı kalmaktadır. Derin öğrenmeyle birlikte bu duruma farklı bir yaklaşım getirilmiştir. Derin öğrenmenin makine öğrenmesinden en bariz farkı özniteliklerin de model tarafından öğreniliyor olmasıdır. Bu sayede karmaşık veriler derin öğrenme modelleriyle yüksek başarıyla öğrenilebilmekte
-ve veriler anlamlandırılabilmektedir.
+# Deep Learning with Python
+Deep learning is a newer approach to machine learning and has a different principle. Making sense of the data in machine learning is carried out by transferring the features from the data to the machine learning models after the developers themselves extract the features from the data. For this reason, the success of the model largely depends on the well-extracted features. With deep learning, a different approach has been brought to this situation. The most obvious difference of deep learning from machine learning is that the features are also learned by the model. In this way, complex data can be learned with deep learning models with high success and the data can be interpreted.
 
 
-Derin öğrenme, temeli sibernetiğe dayanan insanın karar verme mekanizmalarının incelenmesi sonucu sinir hücrelerinin (nöronların) matematiksel olarak modellenmesi ve
-yapay olarak taklit edilmesiyle ortaya çıkmıştır. Canlıların sinir yapısı, hiyerarşik bir şekilde sıralanmış nöronların birbirleriyle elektriksel dürtüler vasıtasıyla 
-etkileşime girmesiyle oluşmaktadır. Her bir sinir hücresi bir önceki nörondan aldığı elektriksel veriyi işleyerek bağlı olduğu diğer nörona iletmektedir. Verilerin işlenmesi
-sonucunda vücut kararları alınmaktadır. Bu teorik bilgiler, derin öğrenme modellerinde yapay sinir ağları (Artificial Neural Networks) olarak karşılık bulmuştur. Öncelikle
-yapay nöronlar (perceptron) oluşturulmuş, daha sonra yapay sinir ağına katmanlar halinde yerleştirilmiştir. Böylece derin bir yapay öğrenme modeli gerçekleştirilmiştir.
+Deep learning emerged with the mathematical modeling and artificial imitation of nerve cells (neurons) as a result of examining human decision-making mechanisms based on cybernetics. The nervous structure of living things consists of hierarchically arranged neurons interacting with each other through electrical impulses. Each nerve cell processes the electrical data it receives from the previous neuron and transmits it to the other neuron to which it is connected. Body decisions are made as a result of processing the data. This theoretical knowledge has been found in deep learning models as artificial neural networks (Artificial Neural Networks). First of all, artificial neurons (perceptron) were created and then placed in the artificial neural network in layers. Thus, a deep machine learning model was realized.
 
 <p align="center">
   <img src="https://github.com/mehmet-engineer/Deep_Learning_with_Python/blob/master/artificial_neural_networks.jpg" />
 </p>
 
-Her bir yapay sinir hücresinin görevi, girdi olarak aldığı verileri f(x) = Wx+b lineer fonksiyonuna göre işleyerek bir çıktı üretmesidir. Yapay sinir ağının görevi ise modelin
-en iyi çıktı skorunu vereceği W ağırlığı ve b bias parametrelerinin hesabını yapmaktır. Sinir ağları sadece doğrusal ağırlıklı toplam (Wx+b) işlemini yaptğında çıktılar sınırlı kalmaktadır. Sinir ağının doğrusal olmayan gerçek hayat problemlerini çözebilmesi için aktivasyon fonksiyonuna sahip olması gerekmektedir. Model, öğrenme işlemini barındırdığı nöronların sahip olduğu ağırlık gibi parametreleri güncelleyerek gerçekleştirmektedir. Böylece derin sinir ağları sınıflandırma, tahmin etme, örnekleme, örüntü tamamlama, nesne 
-tespiti, örnekleme ve genelleme gibi problem çeşitlerini çözebilmektedir.
+The task of each artificial neuron is to produce an output by processing the data it receives as input according to the linear function f(x) = Wx+b. The task of the artificial neural network is to calculate the W weight and b bias parameters that the model will give the best output score. When neural networks only perform linear weighted sum (Wx+b), the outputs are limited. In order for the neural network to solve nonlinear real-life problems, it must have an activation function. The model performs the learning process by updating parameters such as the weight of the neurons it contains. Thus, deep neural networks can solve types of problems such as classification, estimation, sampling, pattern completion, object detection, sampling and generalization.
 
-Yaygın olarak kullanılan özelleştirilmiş derin sinir ağlarından bahsetmek gerekirse;
-1) Evrişimsel Sinir Ağları CNN (Bilgisayarlı görü uygulamaları)
-2) Özyinelemeli Sinir Ağları RNN (Doğal dil işleme, auto translate, sesli asistanlar)
-4) Üretici Çekişmeli Ağlar GAN (Sentetik görsel oluşturma)
-5) Kapsül Ağları (Capsule Networks)
+To talk about the widely used specialized deep neural networks;
+1) Convolutional Neural Networks CNN (Computer vision applications)
+2) Recursive Neural Networks RNN (Natural language processing, auto translate, voice assistants)
+4) Generative Contention Networks GAN (Synthetic image rendering)
+5) Capsule Networks
